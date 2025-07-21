@@ -116,6 +116,10 @@ for j in range(len(mass)):
     for i in range(252): # change to pairs instead of triplets
         trip = []
         for key in properties:
+            print(i)
+            print(j)
+            print(key)
+            print(properties[key][j])
             trip.append(properties[key][j][i])
 
         trip.append(match[j][i])
