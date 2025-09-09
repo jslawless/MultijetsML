@@ -84,7 +84,7 @@ M_test = M[round(len(M)*ratio):]
 
 
 ax = hist.axis.Regular(40, 0, 2250, flow=False, name="x")
-cax = hist.axis.StrCategory(["Neural Network", "Mass Asymmetry", "Truth"], name="c")
+cax = hist.axis.StrCategory(["Neural Network", "Truth"], name="c")
 
 full_hist = Hist(ax,cax)
 
